@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins";
+  margin: 0;
+  background: gray;
+}
+
+.navbar {
+  padding: 1em;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  height: 2em;
+}
+
+.navbar .logo {
+  font-family: "Grey Qo";
+  font-size: 2em;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
