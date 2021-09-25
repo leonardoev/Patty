@@ -22,7 +22,8 @@ section {
     place-content: center;
     flex-wrap: wrap;
     .card{
-        padding-right: 2em;
-        padding-left: 2em;
+        margin-right: 2em;
+        margin-left: 2em;
+        width: 12em;
     }
 }
