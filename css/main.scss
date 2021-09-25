@@ -1,33 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:wght@500&display=swap");
 body {
-    font-family: "Poppins";
+    padding: 0;
     margin: 0;
 }
-.navbar {
-    padding: 1em;
-    background: white;
-    height: 2em;
+header {
     display: flex;
     place-content: space-between;
-
+    padding: 1em;
     .menu {
-        cursor: pointer;
+        height: 2em;
     }
-    nav {
-        display: none;
+    .buy {
+        height: 2em;
     }
     .logo {
-        font-family: "Grey Qo";
-        font-size: 2em;
+        padding: 0;
         margin: 0;
     }
-    .shop {
-        cursor: pointer;
+}
+section {
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    .card{
+        padding-right: 2em;
+        padding-left: 2em;
     }
-}
-section{
-    padding: 5em 2em;
-}
-p{
-    text-align: center;
 }
