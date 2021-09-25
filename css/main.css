@@ -36,10 +36,6 @@ section {
 section .card {
   margin: 1em;
   width: 17em;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 section .card .image {
@@ -50,8 +46,21 @@ section .card .information {
   padding: 1em;
 }
 
-section .card:hover {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+footer a .img-wpp {
+  width: 2em;
 }
 /*# sourceMappingURL=main.css.map */
