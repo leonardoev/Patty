@@ -21,9 +21,14 @@ section {
     display: flex;
     place-content: center;
     flex-wrap: wrap;
-    .card{
-        margin-right: 2em;
-        margin-left: 2em;
+    background-color: gray;
+    .card {
+        padding: 2em;
+        margin: 2em;
         width: 12em;
+        background-color: white;
+        .image {
+            width: 100%;
+        }
     }
 }

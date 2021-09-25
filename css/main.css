@@ -31,11 +31,17 @@ section {
   place-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: gray;
 }
 
 section .card {
-  margin-right: 2em;
-  margin-left: 2em;
+  padding: 2em;
+  margin: 2em;
   width: 12em;
+  background-color: white;
+}
+
+section .card .image {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
