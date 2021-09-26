@@ -24,13 +24,18 @@ header .logo {
   margin: 0;
 }
 
-section {
+section .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+section .title .subtitle {
+  margin: 0;
+  padding: 0;
 }
 
 section .card {

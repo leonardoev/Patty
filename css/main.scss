@@ -18,9 +18,16 @@ header {
     }
 }
 section {
-    display: flex;
-    place-content: center;
-    flex-wrap: wrap;
+    .title {
+        display: flex;
+        place-content: center;
+        flex-wrap: wrap;
+        .subtitle {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
     .card {
         margin: 1em;
         width: 17em;
