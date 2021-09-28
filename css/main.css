@@ -68,4 +68,11 @@ footer a {
 footer a .img-wpp {
   width: 2em;
 }
+
+.wsp-cta {
+  bottom: 40px;
+  right: 40px;
+  width: 2em;
+  position: fixed;
+}
 /*# sourceMappingURL=main.css.map */
