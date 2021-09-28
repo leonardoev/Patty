@@ -51,28 +51,23 @@ section .card .information {
   padding: 1em;
 }
 
+footer {
+  background-color: black;
+}
+
 footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: center;
-}
-
-footer a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  place-content: center;
-}
-
-footer a .img-wpp {
-  width: 2em;
+  color: white;
+  margin: 0;
 }
 
 .wsp-cta {
+  width: 2em;
   bottom: 40px;
   right: 40px;
-  width: 2em;
   position: fixed;
 }
 /*# sourceMappingURL=main.css.map */

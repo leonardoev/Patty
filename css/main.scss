@@ -41,21 +41,17 @@ section {
 }
 
 footer {
+    background-color: black;
     p {
         display: flex;
         place-content: center;
-    }
-    a {
-        display: flex;
-        place-content: center;
-        .img-wpp {
-            width: 2em;
-        }
+        color: white;
+        margin: 0;
     }
 }
 .wsp-cta {
+    width: 2em;
     bottom: 40px;
     right: 40px;
-    width: 2em;
     position: fixed;
 }
